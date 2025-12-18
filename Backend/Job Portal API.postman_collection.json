@@ -329,9 +329,10 @@
 		}
 	],
 	"variable": [
-    {
-        "key": "baseURL",
-        "value": "http://localhost:5000", 
-        "type": "string"
-    }
-]
+		{
+			"key": "baseURL",
+			"value": "",
+			"type": "default"
+		}
+	]
+}
