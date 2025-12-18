@@ -97,7 +97,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"title\": \"React Developer\",\r\n  \"company\": \"Tech Solutions\",\r\n  \"location\": \"Remote\",\r\n  \"description\": \"We need a frontend rockstar.\"\r\n}",
+					"raw": "{\r\n  \"title\": \"Angular Developer\",\r\n  \"company\": \"E-sutra Technology\",\r\n  \"location\": \"Pune\",\r\n  \"description\": \"We need a Frontend Experienced Developer.\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
