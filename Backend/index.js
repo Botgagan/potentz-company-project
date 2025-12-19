@@ -3,8 +3,8 @@ import connectDB from './src/config/db.js';
 import dotenv from 'dotenv';
 import cors from 'cors';
 import path from 'path';
-import authRoutes from './src/routes/authroutes.js';
-import jobRoutes from './src/routes/jobroutes.js';
+import authRoutes from './src/routes/authRoutes.js';
+import jobRoutes from './src/routes/jobRoutes.js';
 import applicationRoutes from './src/routes/applicationRoutes.js';
 
 dotenv.config();
