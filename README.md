@@ -60,8 +60,8 @@ You should see: Server running on port 5000 and MongoDB Connected.
 ## 🧪 API Documentation
 ### 1. Authentication
 ### Register User
-* ### Endpoint: POST /api/auth/register
-* ### Body:
+*  **Endpoint:** POST /api/auth/register
+*  **Body:**
 ```JSON
 {
   "name": "John Doe",
@@ -73,8 +73,8 @@ You should see: Server running on port 5000 and MongoDB Connected.
 (Role can be "recruiter" or "candidate")
 
 ### Login User
-* ### Endpoint: POST /api/auth/login
-* ### Body:
+*  **Endpoint:** POST /api/auth/login
+*  **Body:**
 ```JSON
 {
   "email": "john@example.com",
@@ -85,18 +85,18 @@ You should see: Server running on port 5000 and MongoDB Connected.
 
 ### 2. Jobs
 ### Get All Jobs
-* ### Endpoint: GET /api/jobs
+*  **Endpoint:** GET /api/jobs
 
-* ### Access: Public
+*  **Access:** Public
 
-* ### Response: Returns a list of all available job openings.
+*  **Response:** Returns a list of all available job openings.
 
 ### Create Job (Protected)
-* ### Endpoint: POST /api/jobs
+*  **Endpoint:** POST /api/jobs
 
-* ### Headers: Authorization: Bearer <YOUR_TOKEN>
+*  **Headers:** Authorization: Bearer <YOUR_TOKEN>
 
-* ### Body:
+*  **Body:**
 
 ```JSON
 {
@@ -108,24 +108,24 @@ You should see: Server running on port 5000 and MongoDB Connected.
 ```
 ### 3. Applications
 ### Apply for Job (Protected)
-* ### Endpoint: POST /api/applications/:id
+* **Endpoint:** POST /api/applications/:id
 
-* ### Headers: Authorization: Bearer <YOUR_TOKEN>
+* **Headers:** Authorization: Bearer <YOUR_TOKEN>
 
-* ### Type: form-data
+* **Type:** form-data
 
-* ### Fields:
+*  **Fields:**
 
-  * ### resume: (File Upload - PDF/Doc)
+    *  **resume:** (File Upload - PDF/Doc)
 
 ## 📂 Testing with Postman
-I have included a ready-to-use Postman Collection in the repository to make testing one-click easy.
+I have included a ready-to-use **Postman Collection** in the repository to make testing one-click easy.
 
-* ### Download: Find Job_Portal_API.postman_collection.json in the root folder.
+*  **Download:** Find Job_Portal_API.postman_collection.json in the root folder.
 
-* ### Import: Open Postman -> Click "Import" -> Drag & Drop the file.
+*  **Import:** Open Postman -> Click "Import" -> Drag & Drop the file.
 
-* ### Run: The collection is pre-configured to work with http://localhost:5000.
+*  **Run:** The collection is pre-configured to work with http://localhost:5000.
 
 ## 👤 Author
-## Gagandeep Singh Full Stack Developer
+**Gagandeep Singh** Full Stack Developer
